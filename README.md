@@ -1,4 +1,6 @@
 # CheckMyCar-IOTA-app
+Copyright Stefano Balla, Federica La Piana
+
 A IOTA APPLICATION
 
 A System (sender-receiver, scalable) for monitoring the car by the sensors. It is based on MAM messages and IPFS. The simulated Car ( HIGH MOBILITY) sends the file with sensed data to IPFS, then retrieve the CID from IPFS. So the Car sends the CID and the sha256 of the file to the USER/ RECEIVER using MAM trough the Iota TANGLE. 
