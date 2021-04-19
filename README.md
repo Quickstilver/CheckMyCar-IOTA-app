@@ -3,7 +3,7 @@ Copyright Stefano Balla, Federica La Piana
 
 A IOTA APPLICATION
 
-A System (sender-receiver, scalable) for monitoring the car by the sensors. It is based on MAM messages and IPFS. The simulated Car ( HIGH MOBILITY) sends the file with sensed data to IPFS, then retrieve the CID from IPFS. So the Car sends the CID and the sha256 of the file to the USER/ RECEIVER using MAM trough the Iota TANGLE. 
+A System (sender-receiver, scalable) for monitoring the car using the sensors. It is based on MAM messages and IPFS. The simulated Car ( HIGH MOBILITY) sends the file with sensed data to IPFS, then retrieves the CID from IPFS. So the Car sends the CID and the sha256 of the file to the USER/ RECEIVER using MAM through the Iota TANGLE. 
 The Receiver receives the CID and the sha256, with the first it can download the file from IPFS and then control the integrity using the sha256.
 In addition, with the Web app you can monitor all the sensed data AND send MIOTA to the MECHANICAL in case of maintainance.
 
